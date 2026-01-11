@@ -1,0 +1,25 @@
+{
+    "order": [
+        "value1",
+        "required1",
+        "required2"
+    ],
+    "count": 1,
+    "count_required": 2,
+    "value1": {
+        "Quantity": "Mass",
+        "Value": "7",
+        "Unit": "g",
+        "Object": " Na2CO3.10H2O"
+    },
+    "required1": {
+        "Quantity": "Mass",
+        "Unit": "g",
+        "Object": " Na, Na2CO3.10H2O"
+    },
+    "required2": {
+        "Quantity": "Number of Moles",
+        "Unit": "mol",
+        "Object": " Na, Na2CO3.10H2O"
+    }
+}
