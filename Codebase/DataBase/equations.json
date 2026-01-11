@@ -1,0 +1,1886 @@
+{
+    "order": [
+        "eq1",
+        "eq2",
+        "eq3",
+        "eq4",
+        "eq5",
+        "eq6",
+        "eq7",
+        "eq8",
+        "eq9",
+        "eq10",
+        "eq11",
+        "eq12",
+        "eq13",
+        "eq14",
+        "eq15",
+        "eq16",
+        "eq17",
+        "eq18",
+        "eq19",
+        "eq20",
+        "eq21",
+        "eq22",
+        "eq23",
+        "eq24",
+        "eq25",
+        "eq26",
+        "eq27",
+        "eq28",
+        "eq29",
+        "eq30",
+        "eq31",
+        "eq32",
+        "eq33",
+        "eq34",
+        "eq35",
+        "eq36",
+        "eq37",
+        "eq38",
+        "eq39",
+        "eq40",
+        "eq41",
+        "eq42",
+        "eq43",
+        "eq44",
+        "eq45",
+        "eq46",
+        "eq47",
+        "eq48",
+        "eq49",
+        "eq50",
+        "eq51",
+        "eq52",
+        "eq53",
+        "eq54",
+        "eq55",
+        "eq56",
+        "eq57",
+        "eq58",
+        "eq59",
+        "eq60",
+        "eq61",
+        "eq62",
+        "eq63",
+        "eq64",
+        "eq65",
+        "eq66",
+        "eq67",
+        "eq68",
+        "eq69",
+        "eq70",
+        "eq71",
+        "eq72",
+        "eq73",
+        "eq74",
+        "eq75",
+        "eq76",
+        "eq77",
+        "eq78",
+        "eq79",
+        "eq80",
+        "eq81",
+        "eq82",
+        "eq83",
+        "eq84",
+        "eq85",
+        "eq86",
+        "eq87",
+        "eq88",
+        "eq89",
+        "eq90",
+        "eq91",
+        "eq92",
+        "eq93",
+        "eq94",
+        "eq95",
+        "eq96",
+        "eq97",
+        "eq98",
+        "eq99",
+        "eq100",
+        "eq101",
+        "eq102",
+        "eq103",
+        "eq104",
+        "eq105",
+        "eq106",
+        "eq107",
+        "eq108",
+        "eq109",
+        "eq110",
+        "eq111",
+        "eq112",
+        "eq113",
+        "eq114",
+        "eq115",
+        "eq116",
+        "eq117",
+        "eq118",
+        "eq119",
+        "eq120",
+        "eq121",
+        "eq122",
+        "eq123",
+        "eq124",
+        "eq125",
+        "eq126",
+        "eq127",
+        "eq128",
+        "eq129",
+        "eq130",
+        "eq131",
+        "eq132",
+        "eq133",
+        "eq134",
+        "eq135",
+        "eq136",
+        "eq137",
+        "eq138",
+        "eq139",
+        "eq140",
+        "eq141",
+        "eq142",
+        "eq143",
+        "eq144",
+        "eq145",
+        "eq146",
+        "eq147",
+        "eq148",
+        "eq149",
+        "eq150",
+        "eq151",
+        "eq152",
+        "eq153",
+        "eq154",
+        "eq155",
+        "eq156",
+        "eq157",
+        "eq158",
+        "eq159",
+        "eq160",
+        "eq161"
+    ],
+    "count": 161,
+    "eq1": {
+        "reactants": [
+            "2Al",
+            "3HgCl2"
+        ],
+        "products": [
+            "2AlCl3",
+            "3Hg"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq2": {
+        "reactants": [
+            "2Al",
+            "6HCl"
+        ],
+        "products": [
+            "2AlCl3",
+            "3H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq3": {
+        "reactants": [
+            "2Al",
+            "Fe2O3"
+        ],
+        "products": [
+            "Al2O3",
+            "2Fe",
+            "Energy"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq4": {
+        "reactants": [
+            "2Al(OH)3"
+        ],
+        "products": [
+            "Al2O3",
+            "3H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq5": {
+        "reactants": [
+            "2C",
+            "Ca"
+        ],
+        "products": [
+            "CaC2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq6": {
+        "reactants": [
+            "2C",
+            "O2"
+        ],
+        "products": [
+            "2CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq7": {
+        "reactants": [
+            "2C2H6",
+            "7O2"
+        ],
+        "products": [
+            "4CO2",
+            "6H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq8": {
+        "reactants": [
+            "2CH4",
+            "4O2"
+        ],
+        "products": [
+            "2CO2",
+            "4H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq9": {
+        "reactants": [
+            "2CO2",
+            "O2"
+        ],
+        "products": [
+            "2CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq10": {
+        "reactants": [
+            "2Cr",
+            "6HCl"
+        ],
+        "products": [
+            "2CrCl3",
+            "3H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq11": {
+        "reactants": [
+            "2CuO",
+            "C"
+        ],
+        "products": [
+            "2Cu",
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq12": {
+        "reactants": [
+            "2Fe(NO3)3",
+            "3Na2CO3"
+        ],
+        "products": [
+            "Fe2(CO3)3",
+            "6NaNO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq13": {
+        "reactants": [
+            "2Ga",
+            "3H2SO4"
+        ],
+        "products": [
+            "Ga2(SO4)3",
+            "3H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq14": {
+        "reactants": [
+            "2H2",
+            "O2"
+        ],
+        "products": [
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq15": {
+        "reactants": [
+            "2H2O2"
+        ],
+        "products": [
+            "2H2O",
+            "O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq16": {
+        "reactants": [
+            "2H2S",
+            "3O2"
+        ],
+        "products": [
+            "2H2O",
+            "2SO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq17": {
+        "reactants": [
+            "2HBr"
+        ],
+        "products": [
+            "H2",
+            "Br2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq18": {
+        "reactants": [
+            "2HCl",
+            "H2O"
+        ],
+        "products": [
+            "H2",
+            "Cl2",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq19": {
+        "reactants": [
+            "2HgO"
+        ],
+        "products": [
+            "2H",
+            "O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq20": {
+        "reactants": [
+            "2K",
+            "Br2"
+        ],
+        "products": [
+            "2KBr"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq21": {
+        "reactants": [
+            "2KClO3"
+        ],
+        "products": [
+            "2KCl",
+            "3O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq22": {
+        "reactants": [
+            "2KI",
+            "Br2"
+        ],
+        "products": [
+            "2KBr",
+            "I2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq23": {
+        "reactants": [
+            "2KMnO4"
+        ],
+        "products": [
+            "L2MnO4",
+            "MnO2",
+            "O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq24": {
+        "reactants": [
+            "2KOH",
+            "H2SO4"
+        ],
+        "products": [
+            "K2SO4",
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq25": {
+        "reactants": [
+            "2Li",
+            "2H2O"
+        ],
+        "products": [
+            "2LiOH",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq26": {
+        "reactants": [
+            "2Mg",
+            "O2"
+        ],
+        "products": [
+            "2MgO"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq27": {
+        "reactants": [
+            "2NH3",
+            "H2SO4"
+        ],
+        "products": [
+            "(NH4)2SO4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq28": {
+        "reactants": [
+            "2Na",
+            "2Cl2"
+        ],
+        "products": [
+            "2NaCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq29": {
+        "reactants": [
+            "2Na",
+            "2HCl"
+        ],
+        "products": [
+            "2NaCl",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq30": {
+        "reactants": [
+            "2Na",
+            "MgO"
+        ],
+        "products": [
+            "Na2O",
+            "Mg"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq31": {
+        "reactants": [
+            "2NaCl",
+            "2H2O"
+        ],
+        "products": [
+            "H2",
+            "Cl2",
+            "2NaOH"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq32": {
+        "reactants": [
+            "2NaNO3"
+        ],
+        "products": [
+            "2",
+            "NaNO2",
+            "O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq33": {
+        "reactants": [
+            "2NaOH",
+            "2H2O"
+        ],
+        "products": [
+            "2H2",
+            "O2",
+            "2NaOH"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq34": {
+        "reactants": [
+            "2S",
+            "3O2"
+        ],
+        "products": [
+            "2SO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq35": {
+        "reactants": [
+            "3Ba(OH)2",
+            "2H3PO4"
+        ],
+        "products": [
+            "Ba3(PO4)2",
+            "6H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq36": {
+        "reactants": [
+            "3Fe",
+            "4H2O"
+        ],
+        "products": [
+            "Fe3O4",
+            "4H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq37": {
+        "reactants": [
+            "3Mg",
+            "2FeCl3"
+        ],
+        "products": [
+            "3MgCl2",
+            "2Fe"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq38": {
+        "reactants": [
+            "3Mg",
+            "N2"
+        ],
+        "products": [
+            "Mg3N2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq39": {
+        "reactants": [
+            "3Na",
+            "AlCl3"
+        ],
+        "products": [
+            "3NaCl",
+            "Al"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq40": {
+        "reactants": [
+            "4Al",
+            "3O2"
+        ],
+        "products": [
+            "2Al2O3",
+            "Energy"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq41": {
+        "reactants": [
+            "4Fe",
+            "3O2"
+        ],
+        "products": [
+            "2Fe2O3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq42": {
+        "reactants": [
+            "Ag2O"
+        ],
+        "products": [
+            "2Ag",
+            "1/2O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq43": {
+        "reactants": [
+            "AgNO3",
+            "NaCl"
+        ],
+        "products": [
+            "AgCl",
+            "NaNO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq44": {
+        "reactants": [
+            "Al2",
+            "(SO4)3",
+            "6NaOH"
+        ],
+        "products": [
+            "2Al",
+            "(OH)3",
+            "3Na2SO4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq45": {
+        "reactants": [
+            "AlCl3",
+            "3NaOH"
+        ],
+        "products": [
+            "Al(OH)3",
+            "3NaCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq46": {
+        "reactants": [
+            "BaCl",
+            "MgSO4"
+        ],
+        "products": [
+            "BaSO4",
+            "MgCl2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq47": {
+        "reactants": [
+            "BaO",
+            "H2O"
+        ],
+        "products": [
+            "Ba(OH)2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq48": {
+        "reactants": [
+            "C",
+            "2H2"
+        ],
+        "products": [
+            "CH4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq49": {
+        "reactants": [
+            "C",
+            "2H2O"
+        ],
+        "products": [
+            "CO2",
+            "2H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq50": {
+        "reactants": [
+            "C",
+            "2H2SO4"
+        ],
+        "products": [
+            "CO2",
+            "2SO2",
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq51": {
+        "reactants": [
+            "C",
+            "2S"
+        ],
+        "products": [
+            "CS2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq52": {
+        "reactants": [
+            "C",
+            "4HNO3"
+        ],
+        "products": [
+            "CO2",
+            "4NO2",
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq53": {
+        "reactants": [
+            "C",
+            "O2"
+        ],
+        "products": [
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq54": {
+        "reactants": [
+            "C10H8",
+            "12O2"
+        ],
+        "products": [
+            "10CO2",
+            "4H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq55": {
+        "reactants": [
+            "C3H8",
+            "5O2"
+        ],
+        "products": [
+            "3CO2",
+            "4H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq56": {
+        "reactants": [
+            "C6H12O6"
+        ],
+        "products": [
+            "6C",
+            "6H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq57": {
+        "reactants": [
+            "C6H14",
+            "19O2"
+        ],
+        "products": [
+            "12CO2",
+            "14H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq58": {
+        "reactants": [
+            "CH4"
+        ],
+        "products": [
+            "C",
+            "2H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq59": {
+        "reactants": [
+            "CO",
+            "1/2O2"
+        ],
+        "products": [
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq60": {
+        "reactants": [
+            "CO",
+            "2H2"
+        ],
+        "products": [
+            "CH3OH"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq61": {
+        "reactants": [
+            "CO2",
+            "2Mg"
+        ],
+        "products": [
+            "2MgO",
+            "C"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq62": {
+        "reactants": [
+            "CO2",
+            "2NaOH"
+        ],
+        "products": [
+            "Na2CO3",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq63": {
+        "reactants": [
+            "CO2",
+            "Ca(HO)2"
+        ],
+        "products": [
+            "CaCO3",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq64": {
+        "reactants": [
+            "CO2",
+            "CaCO3",
+            "H2O"
+        ],
+        "products": [
+            "Ca(HCO3)2"
+        ],
+        "arrow": "\\rightleftharpoons"
+    },
+    "eq65": {
+        "reactants": [
+            "CO2",
+            "CaO"
+        ],
+        "products": [
+            "Na2CO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq66": {
+        "reactants": [
+            "CO2",
+            "H2O"
+        ],
+        "products": [
+            "H2CO3"
+        ],
+        "arrow": "\\rightleftharpoons"
+    },
+    "eq67": {
+        "reactants": [
+            "Ca",
+            "2H2O"
+        ],
+        "products": [
+            "Ca(OH)2",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq68": {
+        "reactants": [
+            "Ca(OH)2",
+            "CO2"
+        ],
+        "products": [
+            "CaCO3",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq69": {
+        "reactants": [
+            "CaCO3"
+        ],
+        "products": [
+            "CaO",
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq70": {
+        "reactants": [
+            "CaCO3",
+            "2HCl"
+        ],
+        "products": [
+            "CaCl2",
+            "H2O",
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq71": {
+        "reactants": [
+            "CaH2",
+            "2H2O"
+        ],
+        "products": [
+            "Ca(OH)2",
+            "2H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq72": {
+        "reactants": [
+            "CaO",
+            "H2O"
+        ],
+        "products": [
+            "Ca(OH)2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq73": {
+        "reactants": [
+            "Cl2",
+            "KBr"
+        ],
+        "products": [
+            "2KCl",
+            "Br2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq74": {
+        "reactants": [
+            "CuO",
+            "H2"
+        ],
+        "products": [
+            "Cu",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq75": {
+        "reactants": [
+            "CuO",
+            "H2SO4"
+        ],
+        "products": [
+            "CuSO4",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq76": {
+        "reactants": [
+            "H2",
+            "Cl2"
+        ],
+        "products": [
+            "2HCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq77": {
+        "reactants": [
+            "H2",
+            "I2"
+        ],
+        "products": [
+            "2HI"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq78": {
+        "reactants": [
+            "H2CO3"
+        ],
+        "products": [
+            "CO2",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq79": {
+        "reactants": [
+            "H2O"
+        ],
+        "products": [
+            "H2",
+            "1/2O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq80": {
+        "reactants": [
+            "H2O",
+            "CO"
+        ],
+        "products": [
+            "H2",
+            "CO2"
+        ],
+        "arrow": "\\rightleftharpoons"
+    },
+    "eq81": {
+        "reactants": [
+            "Hg",
+            "1/2O2"
+        ],
+        "products": [
+            "HgO"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq82": {
+        "reactants": [
+            "Mg",
+            "1/2O2"
+        ],
+        "products": [
+            "MgO"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq83": {
+        "reactants": [
+            "Mg",
+            "S"
+        ],
+        "products": [
+            "MgS"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq84": {
+        "reactants": [
+            "Mg(OH)2"
+        ],
+        "products": [
+            "MgO",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq85": {
+        "reactants": [
+            "N2",
+            "3H2"
+        ],
+        "products": [
+            "2NH3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq86": {
+        "reactants": [
+            "N2",
+            "O2"
+        ],
+        "products": [
+            "2NO"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq87": {
+        "reactants": [
+            "NH3",
+            "HCl"
+        ],
+        "products": [
+            "NH4Cl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq88": {
+        "reactants": [
+            "NH3",
+            "HNO3"
+        ],
+        "products": [
+            "NH4NO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq89": {
+        "reactants": [
+            "NH4Cl"
+        ],
+        "products": [
+            "NH3",
+            "HCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq90": {
+        "reactants": [
+            "Na",
+            "2H2O"
+        ],
+        "products": [
+            "2NaOH",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq91": {
+        "reactants": [
+            "Na2O",
+            "H2O"
+        ],
+        "products": [
+            "2NaOH"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq92": {
+        "reactants": [
+            "Na2O",
+            "SO3"
+        ],
+        "products": [
+            "Na2SO4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq93": {
+        "reactants": [
+            "NaCl",
+            "AgNO3"
+        ],
+        "products": [
+            "NaAO3",
+            "AgCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq94": {
+        "reactants": [
+            "NaClCH4",
+            "2O2"
+        ],
+        "products": [
+            "CO2",
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq95": {
+        "reactants": [
+            "NaOH",
+            "HCl"
+        ],
+        "products": [
+            "NaCl",
+            "H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq96": {
+        "reactants": [
+            "Pb(NO3)2",
+            "2KI"
+        ],
+        "products": [
+            "PbI2",
+            "2KNO3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq97": {
+        "reactants": [
+            "S",
+            "O2"
+        ],
+        "products": [
+            "SO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq98": {
+        "reactants": [
+            "SO2",
+            "H2O"
+        ],
+        "products": [
+            "H2SO4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq99": {
+        "reactants": [
+            "Zn",
+            "2AgNO3"
+        ],
+        "products": [
+            "Zn(NO3)2",
+            "2Ag"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq100": {
+        "reactants": [
+            "Zn",
+            "2HCl"
+        ],
+        "products": [
+            "ZnCl2",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq101": {
+        "reactants": [
+            "Zn",
+            "2NaOH"
+        ],
+        "products": [
+            "Na2ZnO2",
+            "H2",
+            "2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq102": {
+        "reactants": [
+            "Zn",
+            "H2O"
+        ],
+        "products": [
+            "ZnO",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq103": {
+        "reactants": [
+            "Zn",
+            "H2SO4"
+        ],
+        "products": [
+            "ZnSO4",
+            "H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq104": {
+        "reactants": [
+            "Zn",
+            "S"
+        ],
+        "products": [
+            "ZnS"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq105": {
+        "reactants": [
+            "ZnCO3"
+        ],
+        "products": [
+            "ZnO",
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq106": {
+        "reactants": [
+            "ZnO",
+            "CO"
+        ],
+        "products": [
+            "Zn",
+            "CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq107": {
+        "reactants": [
+            "H2 ",
+            " Cl2 "
+        ],
+        "products": [
+            " 2HCl "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq108": {
+        "reactants": [
+            "2Fe ",
+            " 3Cl2 "
+        ],
+        "products": [
+            " 2FeCl3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq109": {
+        "reactants": [
+            "2SnO ",
+            " O2 "
+        ],
+        "products": [
+            " 2SnO2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq110": {
+        "reactants": [
+            "Mg ",
+            " CO2 "
+        ],
+        "products": [
+            " CO ",
+            " MgO "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq111": {
+        "reactants": [
+            "2Al ",
+            " 3H2O "
+        ],
+        "products": [
+            " Al2O3 ",
+            " 3H2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq112": {
+        "reactants": [
+            "C2H2O ",
+            " 3O2 "
+        ],
+        "products": [
+            " 2CO2 ",
+            " 3H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq113": {
+        "reactants": [
+            "C6H6O ",
+            " 7O2 "
+        ],
+        "products": [
+            " 6CO2 ",
+            " 3H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq114": {
+        "reactants": [
+            "2Zn ",
+            " SO2 "
+        ],
+        "products": [
+            " 2ZnO ",
+            " S "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq115": {
+        "reactants": [
+            "3Fe2O3 ",
+            " CO "
+        ],
+        "products": [
+            " 2Fe3O4 ",
+            " CO2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq116": {
+        "reactants": [
+            "2Fe(NO3)3 ",
+            " 3Na2CO3 "
+        ],
+        "products": [
+            " Fe2(CO3)3 ",
+            " 6NaNO3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq117": {
+        "reactants": [
+            "2Na3PO4 ",
+            " 3CaCl2 "
+        ],
+        "products": [
+            " 6NaCl ",
+            " Ca3(PO4)2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq118": {
+        "reactants": [
+            "Ba(NO3)2 ",
+            " (NH4)2SO4 "
+        ],
+        "products": [
+            " BaSO4 ",
+            " 2 NH4NO3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq119": {
+        "reactants": [
+            "Al2(SO4)3 ",
+            " 3Ba(OH)2 "
+        ],
+        "products": [
+            " 3BaSO4 ",
+            " 2Al(OH)3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq120": {
+        "reactants": [
+            "2FeCl3 ",
+            " 3Na2CO3 "
+        ],
+        "products": [
+            " Fe2(CO3)3 ",
+            " 6NaCl "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq121": {
+        "reactants": [
+            "3Ca(OH)2 ",
+            " 2H3PO4 "
+        ],
+        "products": [
+            " Ca3(PO4)2 ",
+            " 6H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq122": {
+        "reactants": [
+            "P4O12 ",
+            " 6H2O "
+        ],
+        "products": [
+            " 4H3PO4 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq123": {
+        "reactants": [
+            "Na2CrO4 ",
+            " 2AgNO3 "
+        ],
+        "products": [
+            " Ag2CrO4 ",
+            " 2NaNO3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq124": {
+        "reactants": [
+            "CuCO3 ",
+            " 2HClO4 "
+        ],
+        "products": [
+            " Cu(ClO4)2 ",
+            " CO2 ",
+            " H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq125": {
+        "reactants": [
+            "Na2CO3 ",
+            " 2HCl "
+        ],
+        "products": [
+            "  2NaCl ",
+            " CO2 ",
+            " H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq126": {
+        "reactants": [
+            "HgO "
+        ],
+        "products": [
+            " Hg ",
+            " O2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq127": {
+        "reactants": [
+            "Zn ",
+            " HCl "
+        ],
+        "products": [
+            " H2 ",
+            " ZnCl2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq128": {
+        "reactants": [
+            "Na ",
+            " H2O "
+        ],
+        "products": [
+            " NaOH ",
+            " H2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq129": {
+        "reactants": [
+            "C10H16 ",
+            " Cl "
+        ],
+        "products": [
+            " C ",
+            " HCl "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq130": {
+        "reactants": [
+            "Si2H3 ",
+            " O2 "
+        ],
+        "products": [
+            " SiO2 ",
+            " H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq131": {
+        "reactants": [
+            "Fe ",
+            " O2 "
+        ],
+        "products": [
+            " Fe2O3 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq132": {
+        "reactants": [
+            "C3H6O2 ",
+            " O2 "
+        ],
+        "products": [
+            " CO2 ",
+            " H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq133": {
+        "reactants": [
+            "FeS2 ",
+            " O2 "
+        ],
+        "products": [
+            " Fe2O3 ",
+            " SO2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq134": {
+        "reactants": [
+            "Fe2O3 ",
+            " H2 "
+        ],
+        "products": [
+            " Fe ",
+            " H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq135": {
+        "reactants": [
+            "2K ",
+            " Br2 "
+        ],
+        "products": [
+            " 2KBr "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq136": {
+        "reactants": [
+            "C2H2 ",
+            " O2 "
+        ],
+        "products": [
+            " CO2 ",
+            " H2O "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq137": {
+        "reactants": [
+            "2H2O2 "
+        ],
+        "products": [
+            " 2H2O ",
+            " O2 "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq138": {
+        "reactants": [
+            "1C7H16 ",
+            " 11O2 "
+        ],
+        "products": [
+            " 7CO2 ",
+            " 8H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq139": {
+        "reactants": [
+            "1SiO2 ",
+            " 4HF "
+        ],
+        "products": [
+            " 1SiF4 ",
+            " 2H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq140": {
+        "reactants": [
+            "2KClO3 "
+        ],
+        "products": [
+            " 2KCl ",
+            " 3O2       "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq141": {
+        "reactants": [
+            "1P4O10 ",
+            " 6H2O "
+        ],
+        "products": [
+            " 4H3PO4    "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq142": {
+        "reactants": [
+            "4Sb ",
+            " 3O2 "
+        ],
+        "products": [
+            " 1Sb4O6        "
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq143": {
+        "reactants": [
+            "1C3H8 ",
+            " 5O2 "
+        ],
+        "products": [
+            " 3CO2 ",
+            " 4H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq144": {
+        "reactants": [
+            "1Fe2O3 ",
+            " 3CO "
+        ],
+        "products": [
+            " 2Fe ",
+            " 3CO2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq145": {
+        "reactants": [
+            "1PCl5 ",
+            " 4H2O "
+        ],
+        "products": [
+            " 5HCl ",
+            " 1H3PO4"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq146": {
+        "reactants": [
+            "8H2S ",
+            " 16Cl "
+        ],
+        "products": [
+            " 1S8 ",
+            " 16HCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq147": {
+        "reactants": [
+            "3Fe ",
+            " 4H2O "
+        ],
+        "products": [
+            " 1Fe3O4 ",
+            " 4H2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq148": {
+        "reactants": [
+            "1N2 ",
+            " 3H2 "
+        ],
+        "products": [
+            " 2NH3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq149": {
+        "reactants": [
+            "2N2 ",
+            " 1O2 "
+        ],
+        "products": [
+            " 2N2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq150": {
+        "reactants": [
+            "6CO2 ",
+            " 6H2O "
+        ],
+        "products": [
+            " 1C6H12O6 ",
+            " 6O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq151": {
+        "reactants": [
+            "1SiCl4 ",
+            " 4H2O "
+        ],
+        "products": [
+            " 1H4SiO4 ",
+            " 4HCl"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq152": {
+        "reactants": [
+            "2H3PO4 "
+        ],
+        "products": [
+            " 1H4P2O7 ",
+            " 1H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq153": {
+        "reactants": [
+            "2Al(HO)3 ",
+            " 3H2SO4 "
+        ],
+        "products": [
+            " 1Al2(SO4)3 ",
+            " 6H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq154": {
+        "reactants": [
+            "1H2SO4 ",
+            " 8HI "
+        ],
+        "products": [
+            " 1H2S ",
+            " 4I2 ",
+            " 4H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq155": {
+        "reactants": [
+            "2Al ",
+            " 3FeO "
+        ],
+        "products": [
+            " 1Al2O3 ",
+            " 3Fe"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq156": {
+        "reactants": [
+            "1CO2 ",
+            " 2NH3 "
+        ],
+        "products": [
+            " 1OC(NH2)2 ",
+            " 1H2O"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq157": {
+        "reactants": [
+            "1P4 ",
+            " 5O2 "
+        ],
+        "products": [
+            " 2P2O5"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq158": {
+        "reactants": [
+            "1K2O ",
+            " 1H2O "
+        ],
+        "products": [
+            " 2KOH"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq159": {
+        "reactants": [
+            "4Al ",
+            " 3O2 "
+        ],
+        "products": [
+            " 2Al2O3"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq160": {
+        "reactants": [
+            "2Na2O2 ",
+            " 2H2O "
+        ],
+        "products": [
+            " 4NaOH ",
+            " 1O2"
+        ],
+        "arrow": "\\longrightarrow"
+    },
+    "eq161": {
+        "reactants": [
+            "51C ",
+            " 37H2O "
+        ],
+        "products": [
+            " 37CO ",
+            " 2H21C7H16 ",
+            " 011O2"
+        ],
+        "arrow": "\\longrightarrow"
+    }
+}
