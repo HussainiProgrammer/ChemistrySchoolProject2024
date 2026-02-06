@@ -1,10 +1,10 @@
 from value import Value
-from scientific_notation import ScientificNotation
 from substance import Substance, findSubstance
+import sympy
 import math
 import re
 
-AvogadrosNumber = ScientificNotation(6.023, 23)
+AvogadrosNumber = sympy.sympify("6.023e+23")
 
 units = {
     "Mass": ["g", "kg", "mg"],
@@ -36,10 +36,8 @@ def getSolution(givenValues: list[Value], requiredValues: list[dict]):
         gObjects = g[3].replace(" ", "").split(",")
         for p, object in enumerate(gObjects):
             if type(object) == str:
-                if (formula:= findSubstance(object)):
-                    gObjects[p] = Substance(formula[0])
-                elif object.isdigit():
-                    gObjects[p] = int(object)
+                if (formula := findSubstance(object)): gObjects[p] = Substance(formula[0])
+                elif object.isdigit(): gObjects[p] = int(object)
 
         g[3] = gObjects
 
@@ -64,7 +62,7 @@ def getSolution(givenValues: list[Value], requiredValues: list[dict]):
             solution = requiredFunction(givenValues, value["objects"], value["unit"]) if len(units[value["quantity"]]) > 1 else requiredFunction(givenValues, value["objects"])
 
             if solution is None:
-                listOfSolutions.append(f"Sorry$, we couldn't find the {value["quantity"]} of ${value["objects"][0]}.")
+                listOfSolutions.append(f"Sorry, we couldn't find the " + value["quantity"] + " of " + ", ".join(value["objects"]) + ".}")
 
             else:
                 listOfSolutions.append(solution[0])
@@ -92,7 +90,7 @@ def Mass(values: list[Value], objects: list, unit: str, exceptions: list[str]=[]
             if number_of_moles:            
                 steps += 1
 
-                result = Value("Mass", toInt(round(number_of_moles.value * molar_mass.value, 2)), "g", objects)
+                result = Value("Mass", number_of_moles.value * molar_mass.value, "g", objects)
                 sol += "n_{mole}$ $=$ $\\frac{m}{M}$\n$" + number_of_moles.LaTeX() + "$) $=$ $\\frac{m}{" + molar_mass.LaTeX() + "}$\n$" + number_of_moles.LaTeX() + "$ $\\times$ $" + molar_mass.LaTeX() + "$ $=$ $m$\n$" + result.LaTeX() + "$ $=$ $m"
 
                 if unit != "g":
@@ -141,7 +139,7 @@ def Mass(values: list[Value], objects: list, unit: str, exceptions: list[str]=[]
 
             compound_mass = findValue("Mass", objects[1:], values)
 
-            if (compound_mass is None) and (find_compound_mass := Mass(values, objects, "g", exceptions+["m=A*n*m/M"])):
+            if (compound_mass is None) and (find_compound_mass := Mass(values, objects[1:], "g", ["m=A*n*m/M"])):
                 sol += find_compound_mass[0] + "$\n$"
                 compound_mass = find_compound_mass[1]
                 steps += 1
@@ -155,8 +153,8 @@ def Mass(values: list[Value], objects: list, unit: str, exceptions: list[str]=[]
                 sol += "m_{element}$ $=$ $\\frac{M_{element} \\times n_{particle} \\times m_{compound}}{M_{compound}}$\n$m_{" + objects[0].LaTeX + "}$ $=$ $\\frac{" + str(molar_mass) + " \\times " + str(number_of_substance) + " \\times " + compound_mass.LaTeX() + "}{" + str(compound_molar_mass) + "}$\n$m_{" + objects[0].LaTeX + "}$ $=$ $" + result.LaTeX()
 
                 if unit != "g":
-                    sol += "$\n$m_{" + objects[0].LaTeX + "}$ $=$ $" + result.in_another_unit(unit).LaTeX()
                     result.change_unit(unit)
+                    sol += "$\n$m_{" + objects[0].LaTeX + "}$ $=$ $" + result.LaTeX()
 
                 solutions.append((sol, result, steps))
 
@@ -491,7 +489,7 @@ def Number_of_Moles(values: list[Value], objects: list, exceptions: list[str]=[]
     if "n=n/N" not in exceptions:
         if (number_of_particles := findValue("Number of Particles", objects, values)):
             result = Value("Number of Moles", number_of_particles.value/AvogadrosNumber, "mol", objects)
-            sol = "n_{mole}$ $=$ $\\frac{n_{particle}}{N_{A}}$\n$n_{mole}$ $=$ $\\frac{" + number_of_particles.LaTeX() + "}{" + AvogadrosNumber.LaTeX() + "}$\n$n_{mole}$ $=$ $" + result.LaTeX()
+            sol = "n_{mole}$ $=$ $\\frac{n_{particle}}{N_{A}}$\n$n_{mole}$ $=$ $\\frac{" + number_of_particles.LaTeX() + "}{" + sympy.latex(AvogadrosNumber) + "}$\n$n_{mole}$ $=$ $" + result.LaTeX()
 
             solutions.append((sol, result, 1, 1))
 
@@ -503,7 +501,6 @@ def Number_of_Moles(values: list[Value], objects: list, exceptions: list[str]=[]
             molar_mass = Value("Molar Mass", objects[0].molarMass, "g/mol", objects)
 
             mass = findValue("Mass", objects, values)
-
             if (mass is None) and (find_mass := Mass(values, objects, "g", exceptions+["n=m/M"])):
                 sol += find_mass[0] + "$\n$"
                 mass = find_mass[1]
@@ -930,7 +927,7 @@ def Number_of_Particles(values: list[Value], objects: list, exceptions: list[str
 
     if number_of_moles:
         result = Value("Number of Particles", number_of_moles.value*AvogadrosNumber, objects=objects)
-        sol += "n_{mole}$ $=$ $\\frac{n_{particle}}{N_{A}}$\n$" + (number_of_moles.value.LaTeX() if type(number_of_moles.value) == Substance else str(number_of_moles.value)) + "$ $=$ $\\frac{n_{particle}}{" + AvogadrosNumber.LaTeX() + "}$\n$" + (number_of_moles.value.LaTeX() if type(number_of_moles.value) == Substance else str(number_of_moles.value)) + "\\times " + AvogadrosNumber.LaTeX() + "$ $=$ $n_{particle}$\n$" + result.LaTeX() + "$ $=$ $n_{particle}"
+        sol += "n_{mole}$ $=$ $\\frac{n_{particle}}{N_{A}}$\n$" + (number_of_moles.value.LaTeX() if type(number_of_moles.value) == Substance else str(number_of_moles.value)) + "$ $=$ $\\frac{n_{particle}}{" + sympy.latex(AvogadrosNumber) + "}$\n$" + (number_of_moles.value.LaTeX() if type(number_of_moles.value) == Substance else str(number_of_moles.value)) + "\\times " + sympy.latex(AvogadrosNumber) + "$ $=$ $n_{particle}$\n$" + result.LaTeX() + "$ $=$ $n_{particle}"
 
         return (sol, result)
 
@@ -3838,7 +3835,7 @@ def Mole_Fraction(values: list[Value], objects: list, exceptions: list[str]=[]):
                 sol += find_partial_number_of_moles[0] + "$\n$"
                 partial_number_of_moles = find_partial_number_of_moles[1]
 
-            if (total_number_of_moles is None) and (find_total_number_of_moles := Number_of_Moles(values, [objects[1], "Total"], exceptions+["x=n/n"])):
+            if (total_number_of_moles is None) and (find_total_number_of_moles := Number_of_Moles(values, [objects[1], "Total"], ["x=n/n"])):
                 sol += find_total_number_of_moles[0] + "$\n$"
                 total_number_of_moles = find_total_number_of_moles[1]
 
@@ -3857,7 +3854,7 @@ def Mole_Fraction(values: list[Value], objects: list, exceptions: list[str]=[]):
                 sol += find_partial_pressure[0] + "$\n$"
                 partial_pressure = find_partial_pressure[1]
 
-            if (total_pressure is None) and (find_total_pressure := Pressure(values, [objects[1], "Partial"], "atm", exceptions+["x=P/P"])):
+            if (total_pressure is None) and (find_total_pressure := Pressure(values, [objects[1], "Total"], "atm", ["x=P/P"])):
                 sol += find_total_pressure[0] + "$\n$"
                 total_pressure = find_total_pressure[1]
 

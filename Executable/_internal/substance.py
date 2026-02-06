@@ -35,7 +35,7 @@ class Substance:
     def __init__(self, formula: str):
         self.formula = formula
         self.LaTeX = formula_to_LaTeX(formula)
-        self.elements = getElements(formula) # Without crystallization water (which is found in some compounds e.g. Na2SO4.7H2O somewhere in the textbook), this line could be used instead: self.elements = {element.group(1): int(element.group(2) or "1") for element in re.finditer("([A-Z][a-z]?)(\\d*)", formula)}
+        self.elements = getElements(formula) # Without accounting for crystallization water (which is found in some compounds e.g. Na2SO4.7H2O somewhere in the textbook), this line could be used instead: self.elements = {element.group(1): int(element.group(2) or "1") for element in re.finditer("([A-Z][a-z]?)(\\d*)", formula)}
         self.molarMass = sum([molarMasses[element] * number for element, number in self.elements.items()])
 
     def __eq__(self, __value) -> bool:

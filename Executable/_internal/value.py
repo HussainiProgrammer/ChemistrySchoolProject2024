@@ -214,7 +214,7 @@ class Value:
 
         for index, object in enumerate(self.objects):
             if type(object) == str:
-                if (formula:= findSubstance(object)): self.objects[index] = Substance(formula[0])
+                if (formula := findSubstance(object)): self.objects[index] = Substance(formula[0])
                 elif object.isdigit(): self.objects[index] = int(object)
 
     def change_unit(self, newUnit: str):
