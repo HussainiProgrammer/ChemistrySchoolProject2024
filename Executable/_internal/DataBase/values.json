@@ -1,25 +1,33 @@
 {
     "order": [
         "value1",
-        "required1",
-        "required2"
+        "value2",
+        "value3",
+        "required1"
     ],
-    "count": 1,
-    "count_required": 2,
+    "count": 3,
+    "count_required": 1,
     "value1": {
-        "Quantity": "Mass",
-        "Value": "7",
-        "Unit": "g",
-        "Object": " Na2CO3.10H2O"
+        "Quantity": "Volume",
+        "Value": "10",
+        "Unit": "L",
+        "Object": " Gas, 1"
+    },
+    "value2": {
+        "Quantity": "Volume",
+        "Value": "2",
+        "Unit": "L",
+        "Object": " Gas, 2"
+    },
+    "value3": {
+        "Quantity": "Pressure",
+        "Value": "1",
+        "Unit": "atm",
+        "Object": " Gas, 1"
     },
     "required1": {
-        "Quantity": "Mass",
-        "Unit": "g",
-        "Object": " Na, Na2CO3.10H2O"
-    },
-    "required2": {
-        "Quantity": "Number of Moles",
-        "Unit": "mol",
-        "Object": " Na, Na2CO3.10H2O"
+        "Quantity": "Pressure",
+        "Unit": "atm",
+        "Object": " Gas, 2"
     }
 }
