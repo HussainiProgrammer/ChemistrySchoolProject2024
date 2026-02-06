@@ -8,26 +8,26 @@
     "count": 3,
     "count_required": 1,
     "value1": {
-        "Quantity": "Pressure",
-        "Value": "2",
-        "Unit": "atm",
+        "Quantity": "Number of Moles",
+        "Value": "5",
+        "Unit": "mol",
         "Object": " Gas"
     },
     "value2": {
-        "Quantity": "Volume",
-        "Value": "5",
-        "Unit": "L",
+        "Quantity": "Pressure",
+        "Value": "1",
+        "Unit": "atm",
         "Object": " Gas"
     },
     "value3": {
-        "Quantity": "Temperature",
-        "Value": "300",
-        "Unit": "K",
+        "Quantity": "Volume",
+        "Value": "2",
+        "Unit": "L",
         "Object": " Gas"
     },
     "required1": {
-        "Quantity": "Number of Moles",
-        "Unit": "mol",
+        "Quantity": "Temperature",
+        "Unit": "K",
         "Object": " Gas"
     }
 }
